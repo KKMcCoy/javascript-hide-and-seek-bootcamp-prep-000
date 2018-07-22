@@ -10,15 +10,13 @@ function increaseRankBy(n) {
   var list = document.querySelectorAll('.ranked-list');
   
   for (let i = 0; i < list.length; i++) {
-  
   var rank= list[i];
+  
   for (let i = 0; i < rank.length; i++) {
   var newRank = parseInt(rank[i].innerHTML) + n;
   rank.splice(i,1,newRank);
-  
-  return list;
-  }
-  }
+  } return rank;
+  } return list;
 }
 
 function deepestChild() {

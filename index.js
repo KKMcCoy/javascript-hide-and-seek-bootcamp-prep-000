@@ -13,7 +13,7 @@ function increaseRankBy(n) {
   var rank= list[i];
   for (let i = 0; i < rank.length; i++) {
   var newNum = rank[i].innerHTML;
-  rank.splice(i,parseInt(newNum) + n;
+  rank.splice(i,1,'parseInt(newNum) + n');
   
   }return rankedGroup;
   

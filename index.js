@@ -7,8 +7,8 @@ function nestedTarget() {
 }
 
 function increaseRankBy(n) {
-  var rankedNum = document.querySelectorAll('.ranked-list');
-  for (let i = 0; i < document.querySelectorAll('.ranked-list'); i++) {
+  var rankedNum = document.querySelectorAll('.ranked-list li');
+  for (let i = 0; i < document.querySelectorAll('.ranked-list li'); i++) {
    return rankedNum[i].innerHTML += n;
   }
 }

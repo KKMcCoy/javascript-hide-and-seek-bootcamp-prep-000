@@ -14,7 +14,9 @@ function increaseRankBy(n) {
   for (let i = 0; i < rankedGroup.length; i++) {
   var newNum = rankedGroup[i].innerHTML;
   parseInt(newNum) + n;
+  
   }return rankedGroup;
+  
   }return list;
 }
 

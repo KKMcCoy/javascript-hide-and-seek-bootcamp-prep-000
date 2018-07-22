@@ -15,8 +15,8 @@ function increaseRankBy(n) {
   parseInt(rankedGroup[i].innerHTML) + n;
   return rankedGroup;
  
-  }return rankedNum;
   }
+  }return list;
 }
 
 function deepestChild() {

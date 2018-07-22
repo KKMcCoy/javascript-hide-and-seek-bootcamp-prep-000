@@ -20,5 +20,5 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
-  var child
+  return document.querySelector()
 }

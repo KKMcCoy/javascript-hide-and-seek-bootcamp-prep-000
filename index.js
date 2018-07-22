@@ -15,9 +15,9 @@ function increaseRankBy(n) {
   var newRank = parseInt(rank[i].innerHTML) + n;
   rank.splice(i,1,newRank);
   
-  }return rank;
-  
-  }return list;
+  return list;
+  }
+  }
 }
 
 function deepestChild() {

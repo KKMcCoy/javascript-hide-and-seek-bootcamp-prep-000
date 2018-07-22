@@ -15,10 +15,11 @@ function increaseRankBy(n) {
   for (let i = 0; i < rank.length; i++) {
   var newRank = parseInt(rank[i].innerHTML) + n;
   rank.splice(i,1,newRank);
+  return rank;
   } 
-  return list.splice(i,1,rank);
-  } 
+  list.splice(i,1,rank);
   return list;
+  } 
 }
 
 function deepestChild() {

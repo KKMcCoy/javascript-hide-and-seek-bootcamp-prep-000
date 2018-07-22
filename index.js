@@ -17,7 +17,6 @@ function increaseRankBy(n) {
   rank.splice(i,1,newRank);
   return rank;
   } 
-  list.splice(i,1,rank);
   return list;
   } 
 }

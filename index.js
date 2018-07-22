@@ -14,7 +14,7 @@ function increaseRankBy(n) {
   return parseInt(list[i].innerHTML+n);
   }
   return list;
-  }return ranledNum;
+  }return rankedNum;
 }
 
 function deepestChild() {
